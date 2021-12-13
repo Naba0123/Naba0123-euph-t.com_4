@@ -1,0 +1,65 @@
+#container {
+  height: auto;
+}
+
+#server {
+  margin: auto;
+}
+#server td {
+  padding: 8px 30px;
+  font-size: small;
+  border-bottom: dotted 1px rgba(0, 0, 0, 0.3);
+}
+
+.middle-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 15px 0px;
+}
+.middle-table td {
+  text-align: center;
+  vertical-align: middle;
+}
+.middle-table p {
+  font-size: 80%;
+}
+
+h3 {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  letter-spacing: 0.1em;
+  font-size: large;
+  padding-bottom: 0px;
+  font-weight: normal;
+}
+
+#news {
+  margin: auto;
+}
+#news td {
+  padding: 10px 60px;
+  font-size: small;
+  border-bottom: dotted 1px rgba(0, 0, 0, 0.3);
+}
+
+.twitter-box {
+  width: 200px;
+  padding: 5px;
+}
+
+.profile-link {
+  width: 100%;
+}
+.profile-link td {
+  font-size: small;
+  padding: 10px 0px 5px 0px;
+  border-bottom: dotted 1px rgba(0, 0, 0, 0.3);
+}
+.profile-link td a {
+  text-decoration:none;
+}
+.profile-link td a:link {
+  color: blue;
+}
+.profile-link td a:visited {
+  color: blue; 
+}
