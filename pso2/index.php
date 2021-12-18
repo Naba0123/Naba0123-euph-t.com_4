@@ -1,7 +1,9 @@
+<?php $root = '../' ?>
+
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-		<?php include $_SERVER['DOCUMENT_ROOT'] . '/share/php/head.php' ?>
+		<?php include '../share/php/head.php' ?>
 		<link href="css/pso2.css" rel="stylesheet">
 		<title>PSO2 Contents - Euphoria Time</title>
   </head>
@@ -13,7 +15,7 @@
     </div>
     
     <!-- header -->
-		<?php include $_SERVER['DOCUMENT_ROOT'] . '/share/php/header.php' ?>
+		<?php include '../share/php/header.php' ?>
     
     <!-- container -->
     <div id="container" class="container-box">
@@ -75,6 +77,6 @@
     </div>
     
     <!-- footer -->
-		<?php include $_SERVER['DOCUMENT_ROOT'] . '/share/php/footer.php' ?>
+		<?php include '../share/php/footer.php' ?>
     
   </body>

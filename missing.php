@@ -1,7 +1,9 @@
+<?php $root = './' ?>
+
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-		<?php include $_SERVER['DOCUMENT_ROOT'] . '/share/php/head.php' ?>
+		<?php include './share/php/head.php' ?>
 		<title>Oops! - Euphoria Time</title>
     
     <style>
@@ -22,7 +24,7 @@
     </div>
     
     <!-- header -->
-		<?php include $_SERVER['DOCUMENT_ROOT'] . '/share/php/header.php' ?>
+		<?php include './share/php/header.php' ?>
     
     <!-- container -->
     <div id="container" class="container-box">
@@ -43,6 +45,6 @@
     </div>
     
     <!-- footer -->
-		<?php include $_SERVER['DOCUMENT_ROOT'] . '/share/php/footer.php' ?>
+		<?php include './share/php/footer.php' ?>
     
   </body>
